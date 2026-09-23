@@ -8,12 +8,58 @@
     "nodejs-web-security-skill": "./bin/cli.js",
     "web-security-skill": "./bin/cli.js"
   },
-  "files": ["SKILL.md","skill.yaml","README.md","references/","examples/","checklists/","rules/","templates/","adapters/","bin/"],
-  "engines": {"node": ">=18"},
-  "keywords": ["ai","agent-skill","web-security","nodejs","appsec","owasp","secure-coding","claude-code","codex","gemini","cursor","copilot"],
-  "repository": {"type":"git","url":"git+https://github.com/aliir7/nodejs-web-security-skill.git"},
-  "bugs": {"url":"https://github.com/aliir7/nodejs-web-security-skill/issues"},
-  "homepage":"https://github.com/aliir7/nodejs-web-security-skill",
-  "publishConfig":{"access":"public"},
-  "scripts":{"test":"node tests/smoke.mjs","check":"node --check bin/cli.js","pack:check":"npm pack --dry-run"}
+  "files": [
+    "SKILL.md",
+    "skill.yaml",
+    "README.md",
+    "references/",
+    "examples/",
+    "checklists/",
+    "rules/",
+    "templates/",
+    "adapters/",
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ai",
+    "agent-skill",
+    "web-security",
+    "nodejs",
+    "appsec",
+    "owasp",
+    "secure-coding",
+    "claude-code",
+    "codex",
+    "gemini",
+    "cursor",
+    "copilot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliir7/nodejs-web-security-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliir7/nodejs-web-security-skill/issues"
+  },
+  "homepage": "https://github.com/aliir7/nodejs-web-security-skill",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node tests/smoke.mjs",
+    "check": "node --check bin/cli.js",
+    "pack:check": "npm pack --dry-run",
+    "pack": "npm pack"
+  },
+  "author": {
+    "name": "Ali Rezaei",
+    "url": "https://github.com/aliir7"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/aliir7"
+  }
 }
