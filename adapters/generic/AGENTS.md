@@ -1,0 +1,3 @@
+# Node.js Web Security Skill
+
+Use repository-root SKILL.md as the canonical security policy. Preserve Authentication, Authorization, and Ownership as separate invariants. Threat-model security-sensitive changes, validate trust boundaries, enforce server-side authorization, scope resource queries by authenticated identity, never trust client-supplied ownership, never invent secrets, and provide regression tests.
