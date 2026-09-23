@@ -1,0 +1,5 @@
+name: nodejs-web-security-architect
+version: 1.0.0
+type: enterprise-ai-skill
+source: user-provided Node.js security course document
+entrypoint: SKILL.md
