@@ -1,0 +1,6 @@
+---
+description: Enterprise Node.js Web Application Security
+globs: ["**/*.js","**/*.jsx","**/*.ts","**/*.tsx"]
+alwaysApply: true
+---
+Use repository-root SKILL.md as canonical security policy. Threat-model security-sensitive code; validate untrusted input; authorize server-side; scope database queries by authenticated owner/tenant; never trust client-supplied ownerId/userId; never invent secrets; include regression tests.
